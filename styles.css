@@ -38,12 +38,24 @@ main {
 	min-width: 300px;
 	min-height: 400px;
 }
+
+.filtres p {
+	margin-top: 8px;
+	margin-bottom: 4px;
+}
+
 .filtres h3 {
 	text-align: center;
 }
 
+.max-price {
+	display: flex;
+}
+
 .fiches {
 	flex: 1;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 	margin: 8px;
 }
 .fiches img {
@@ -52,4 +64,12 @@ main {
 .fiches p {
 	margin-top: 4px;
 	margin-bottom: 4px;
+}
+
+ul {
+	padding: 20px;
+}
+
+li {
+	padding: 5px;
 }
